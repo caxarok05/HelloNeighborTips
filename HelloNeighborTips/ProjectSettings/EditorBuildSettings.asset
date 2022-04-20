@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ActsScene.unity
     guid: d2aaf9ab59a02d14685699eee3d30894
+  - enabled: 1
+    path: Assets/Scenes/CurrentActScene.unity
+    guid: 6e3dfbbbb067b5d4aaf68261a3355f27
+  - enabled: 1
+    path: Assets/Scenes/TipScene.unity
+    guid: da922c34601d4b34ebc9cd1c38b294fe
   m_configObjects: {}

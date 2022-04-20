@@ -15,4 +15,9 @@ public class UIManager : MonoBehaviour
         Application.OpenURL(URL);
     }
 
+    public void ChangeCurrentAct(int index)
+    {
+        TipCountScript._actIndex = index;
+    }
+
 }
