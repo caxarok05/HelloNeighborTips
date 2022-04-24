@@ -6,9 +6,4 @@ using UnityEngine;
 public class Act 
 {
     public List<Tip> TipsList;
- 
-    private void SetTips()
-    {
-
-    }
 }

@@ -6,9 +6,10 @@ using UnityEngine.UI;
 [System.Serializable]
 public class Tip 
 {
-    public Image TipImage;
+    public Sprite TipImage;
 
     [TextArea (10, 10)]
     public string TipText;
-
+    [TextArea(1, 10)]
+    public string LocalizationIndex;
 }

@@ -17,7 +17,17 @@ public class UIManager : MonoBehaviour
 
     public void ChangeCurrentAct(int index)
     {
-        TipCountScript._actIndex = index;
+        TipsGeneratorScript.ActIndex = index;
+    }
+
+    public void NextIndex()
+    {
+        TipsGeneratorScript.CurrentIndex += 1;
+    }
+
+    public void RefreshScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
 }
