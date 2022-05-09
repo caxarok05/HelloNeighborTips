@@ -8,34 +8,36 @@ public class TipContentScript : MonoBehaviour
     [SerializeField] private Image _tipImage;
     [SerializeField] private Text _tipText;
     [SerializeField] private Text _tipName;
+
     [SerializeField] private GameObject _content;
 
     [SerializeField] private ContentSizeFitter _textSizeFitter;
-    [SerializeField] private VerticalLayoutGroup _verticalLayotGroup;
 
     [SerializeField] private GameController _gameController;
 
-    [SerializeField] private LocalizationManager _localizationManager;
+    [SerializeField] private Font RussianFont;
+    [SerializeField] private Font EnglishFont;
 
     private void Awake()
     {
         SetImage();
         SetText();
 
-        _tipText.GetComponent<LocalizedText>().key = _gameController._acts[TipsGeneratorScript.ActIndex - 1].TipsList[TipsGeneratorScript.CurrentIndex].LocalizationIndex;
-
+        _tipText.text = _gameController._acts[TipsGeneratorScript.ActIndex - 1].TipsList[TipsGeneratorScript.CurrentIndex].LocalizationIndex;
     }
 
     private void SetText()
     {
         _tipText.text = _gameController._acts[TipsGeneratorScript.ActIndex - 1].TipsList[TipsGeneratorScript.CurrentIndex].TipText;
-        if (_localizationManager.CurrentLanguage == "ru_RU")
+        if (LocalizationManagerXML.SelectedLanguage == 1)
         {
-            _tipName.text = $"«¿Ã≈“ ¿  {TipsGeneratorScript.CurrentIndex + 1}";
+            _tipName.text = $"—Œ¬≈“ {TipsGeneratorScript.CurrentIndex + 1}";
+            _tipName.font = RussianFont;
         }
-        else if (_localizationManager.CurrentLanguage == "ru_RU")
+        else if (LocalizationManagerXML.SelectedLanguage == 0)
         {
             _tipName.text = $"TIP {TipsGeneratorScript.CurrentIndex + 1}";
+            _tipName.font = EnglishFont;
         }
 
         CorrectText();

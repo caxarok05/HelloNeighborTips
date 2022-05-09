@@ -6,10 +6,12 @@ using UnityEngine.UI;
 [System.Serializable]
 public class Tip 
 {
+    [Header ("TIP")]
     public Sprite TipImage;
 
-    [TextArea (10, 10)]
+    [HideInInspector]
     public string TipText;
-    [TextArea(1, 10)]
+
+    [TextArea(2, 10)]
     public string LocalizationIndex;
 }

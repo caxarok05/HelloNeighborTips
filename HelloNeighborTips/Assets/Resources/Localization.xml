@@ -1,0 +1,897 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Keys xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Key Name="Logo">
+		<Translates>
+			<en-us>Hi Neighbor Tips</en-us>
+			<ru>Hi Neighbor Tips</ru>
+		</Translates>
+	</Key>
+	<Key Name="MenuStart">
+		<Translates>
+			<en-us>Start</en-us>
+			<ru>Начать</ru>
+		</Translates>
+	</Key>
+	<Key Name="MenuSettings">
+		<Translates>
+			<en-us>Settings</en-us>
+			<ru>Настройки</ru>
+		</Translates>
+	</Key>
+	<Key Name="MenuShare">
+		<Translates>
+			<en-us>Share</en-us>
+			<ru>Поделиться</ru>
+		</Translates>
+	</Key>
+	<Key Name="ListofActs">
+		<Translates>
+			<en-us>List of Acts</en-us>
+			<ru>Список Актов</ru>
+		</Translates>
+	</Key>
+	<Key Name="ListofTips">
+		<Translates>
+			<en-us>List of Tips</en-us>
+			<ru>Список Советов</ru>
+		</Translates>
+	</Key>
+	<Key Name="LanguageLogo">
+		<Translates>
+			<en-us>Language</en-us>
+			<ru>Язык</ru>
+		</Translates>
+	</Key>
+	<Key Name="PrivacyPolicy">
+		<Translates>
+			<en-us>Privacy Policy</en-us>
+			<ru>Политика конфиденциальности</ru>
+		</Translates>
+	</Key>
+	<Key Name="SettingsText">
+		<Translates>
+			<en-us>This app is directed by Smart Fox, it is not an official app. If this app violates copyright, please let us know, and we will remove it as soon as possible. Thanks!</en-us>
+			<ru>Это приложение разработано Smart Fox, оно не является официальным приложением. Если это приложение нарушает авторские права, сообщите нам об этом, и мы удалим его как можно скорее. Спасибо!</ru>
+		</Translates>
+	</Key>
+	<Key Name="Site">
+		<Translates>
+			<en-us>Site</en-us>
+			<ru>Сайт</ru>
+		</Translates>
+	</Key>
+	<Key Name="ShareText">
+		<Translates>
+			<en-us>Hey! Install this amazing guide ___ by following this link: ____</en-us>
+			<ru>Привет. Установи классный гайд___ по этой ссылке: ___</ru>
+		</Translates>
+	</Key>
+	<Key Name="ShareTextButton">
+		<Translates>
+			<en-us>Choose one:</en-us>
+			<ru>Выберите: :</ru>
+		</Translates>
+	</Key>
+	<Key Name="Act 3">
+		<Translates>
+			<en-us>Act 3</en-us>
+			<ru>Акт 3</ru>
+		</Translates>
+	</Key>
+	<Key Name="Act 2">
+		<Translates>
+			<en-us>Act 2</en-us>
+			<ru>Акт 2</ru>
+		</Translates>
+	</Key>
+	<Key Name="Act 1">
+		<Translates>
+			<en-us>Act 1</en-us>
+			<ru>Акт 1</ru>
+		</Translates>
+	</Key>
+	<Key Name="GDPRChooseyourage">
+		<Translates>
+			<en-us>Choose your age</en-us>
+			<ru>Выберите свой возраст</ru>
+		</Translates>
+	</Key>
+	<Key Name="GDPRPrivacyPolicy">
+		<Translates>
+			<en-us>Privacy Policy</en-us>
+			<ru>Политика конфиденциальности</ru>
+		</Translates>
+	</Key>
+	<Key Name="GDPRAge">
+		<Translates>
+			<en-us>18+</en-us>
+			<ru>18+</ru>
+		</Translates>
+	</Key>
+	<Key Name="GDPRText">
+		<Translates>
+			<en-us>You have to agree to our privacy policy in order to continue to use this application.</en-us>
+			<ru>Вы должны согласиться с нашей политикой конфиденциальности, чтобы продолжить использование этого приложения</ru>
+		</Translates>
+	</Key>
+	<Key Name="GDPRAgree">
+		<Translates>
+			<en-us>I agree</en-us>
+			<ru>Я согласен</ru>
+		</Translates>
+	</Key>
+	<Key Name="GDPRNext">
+		<Translates>
+			<en-us>Next</en-us>
+			<ru>Продолжить</ru>
+		</Translates>
+	</Key>
+	<Key Name="Loading">
+		<Translates>
+			<en-us>Loading...</en-us>
+			<ru>Загрузка...</ru>
+		</Translates>
+	</Key>
+	<Key Name="Tip 1">
+		<Translates>
+			<en-us>Tip 1</en-us>
+			<ru>Совет 1</ru>
+		</Translates>
+	</Key>
+	<Key Name="Act 1 Tip 1 Description">
+		<Translates>
+			<en-us>Welcome to the unofficial complete walkthrough guide of an amazing game - Hello Neighbor. If you haven’t played this exciting game, we highly recommend you to download and play it!
+
+Your main goal to complete Act 1 is to find a red key in Part 1, and to unlock a green door in Part 2. 
+
+When you start the game for the first time, we recommend you to test UI controls (how to pick and throw items) in the safe shelter, which is located opposite to the neighbor's house.
+
+Try to keep 4 useful items (like plates, etc.) in your inventory to knock over the neighbor, so you will have a chance to run away.
+
+Try to break the window by holding the throw button with an item (like TV) on the screen. Without holding the button, the item will be thrown out near you.
+
+If the neighbor hasn't seen you, you can hide inside the cabinet or under beds.But if he has seen you, it will not work.</en-us>
+			<ru>Добро пожаловать в неофициальное полное руководство по замечательной игре Hello Neighbor. Если вы еще не играли в эту захватывающую игру, мы настоятельно рекомендуем вам скачать и сыграть в нее! 
+
+Ваша главная цель для прохождения Акта 1 — найти красный ключ в Части 1 и открыть зеленую дверь в Части 2. 
+
+Когда вы запускаете игру в первый раз, мы рекомендуем вам протестировать управление пользовательским интерфейсом (как подбирать и бросать предметы) в безопасном укрытии, которое находится напротив дома соседа. 
+
+Старайтесь держать в инвентаре 4 полезных предмета (такие как тарелки и т.п.), чтобы сбить с ног соседа, так у вас будет больше шансов убежать. 
+
+Попробуйте разбить окно, удерживая кнопку броска предметов (например, телевизором) на экране. Если вы не будете удерживать кнопку, предмет будет выброшен рядом с вами. 
+
+Если сосед вас не видел, вы можете спрятаться внутри шкафа или под кроватью, и переждать пока он пройдет рядом. Но если он вас увидел, это не сработает.</ru>
+		</Translates>
+	</Key>
+	<Key Name="Tip 2">
+		<Translates>
+			<en-us>Tip 2</en-us>
+			<ru>Совет 2</ru>
+		</Translates>
+	</Key>
+	<Key Name="Act 1 Tip 2 Description">
+		<Translates>
+			<en-us>To find a red key and complete Act 1, start with finding the key from the car. 
+
+Your starting point in this journey will be to take two sealed boxes and a box with items (located under the stairs) and one TV (located in the room) in the opposite house. 
+
+Now go to the Neighbor house carefully. On the left side you will see the stairs. Climb on them. On the left side on the top of the stairs, put one sealed box and jump on it, then on a roof. After that you need to carefully jump on a roof nearby that leads to the windows on the third floor. 
+
+Break one from two white windows using the TV or the box with items. Climb into the room with a red wallpaper. 
+On the left wall, you will see a big painting with white flowers, pick it up, and you will see a hole in the wall. Now you can throw the painting, you will not need it anymore.
+
+Jump into a room with a blue wallpaper through the wall. Turn the switch on. Find a yellow key and open the door (it will be useful later). Then find the red key that hangs on a shelf that is located on the wall with the hole. This red key you will use soon to open the car. 
+
+Go back to the room with the red wallpaper through the opened door, explore it. You can also switch on a fan on a shelf. 
+
+Now you have a key to open the car. Go back to the broken window and jump from it. Take a look around, if there is no neighbor nearby, hurry up to the car.
+
+Open the trunk, and take a magnet. Throw the keys, you will not need it anymore.
+</en-us>
+			<ru>Чтобы найти красный ключ и завершить Акт 1, начните с поиска ключа от машины. 
+
+Отправной точкой в ​​этом путешествии будет взять два запечатанных ящика и ящик с предметами (которые находятся под лестницей) и один телевизор (который находится в комнате) в доме напротив дома соседа. 
+
+Теперь осторожно подойдите к соседнему дому. С левой стороны от главного входа в дом вы увидите лестницу. Поднимитесь на нее. С левой стороны на верху лестницы - поставьте один запечатанный ящик и прыгните на него, а затем на крышу. После этого нужно осторожно запрыгнуть на крышу рядом, которая ведет к окнам на втором этаже. 
+
+Разбейте одно из двух белых окон с помощью телевизора или ящика с предметами. Заберитесь в комнату с красными обоями. 
+На левой стене вы увидите большую картину с белыми цветами, поднимите ее и увидите дыру в стене. Теперь можете выбросить картину, она вам больше не понадобится. 
+
+Прыгайте в комнату с голубыми обоями через стену. Включите переключатель на стене. Найдите желтый ключ и откройте дверь (открытая дверь пригодится позже). Затем найдите красный ключ, который висит на полке, расположенной на стене с отверстием. Этим красным ключом вы сможете открыть машину. 
+
+Вернитесь в комнату с красными обоями через открывшуюся дверь, исследуйте комнату, - это очень увлекательно. Вы также можете включить вентилятор на полке, и он будет работать. 
+
+Теперь у вас есть ключ, чтобы открыть машину. Вернитесь к разбитому окну и спрыгните с него. Оглянитесь вокруг, если рядом нет соседа, поторопитесь к машине. 
+
+Откройте багажник и возьмите магнит внутри. Выбросьте ключи, они вам больше не понадобятся.</ru>
+		</Translates>
+	</Key>
+	<Key Name="Tip 3">
+		<Translates>
+			<en-us>Tip 3</en-us>
+			<ru>Совет 3</ru>
+		</Translates>
+	</Key>
+	<Key Name="Act 1 Tip 3 Description">
+		<Translates>
+			<en-us>Now with the magnet in hands you need to go to the backyard of the house. First of all, find the boxes near it, pick up three of them. 
+In the backyard you will see a ladder blocked by a shoddy fence with some boards and a small window. 
+
+You need to take a silver lock pick using a magnet through the small open window. 
+
+Stack three boxes one on top of another and jump on it near the small open window. You have to see the silver lock pick through the window before using the magnet. Carefully point the magnet towards the silver lock pick (located on the top left side of the shelves, near the pots of glue). 
+
+After you take the silver lock pick in your hands, don't throw the magnet, you will need it soon again. 
+</en-us>
+			<ru>Теперь с магнитом в руках нужно отправиться на задний двор дома. Первым делом найдите рядом с ним ящики, подберите три из них. 
+На заднем дворе вы увидите лестницу, огороженную ветхим забором с несколькими досками и небольшим окном. 
+
+Нам нужно взять серебряную отмычку с помощью магнита через маленькое открытое окно. 
+
+Ставьте три ящика один на другой и прыгайте на него возле маленького открытого окна. Вы должны увидеть серебряную отмычку через окно, прежде чем использовать магнит. Осторожно направьте магнит на серебряную отмычку (расположенную в верхней левой части полок, рядом с горшками с клеем). 
+
+После того, как вы возьмете в руки серебряную отмычку, не бросайте магнит, он вам скоро снова понадобится.</ru>
+		</Translates>
+	</Key>
+	<Key Name="Tip 4">
+		<Translates>
+			<en-us>Tip 4</en-us>
+			<ru>Совет 4</ru>
+		</Translates>
+	</Key>
+	<Key Name="Act 1 Tip 4 Description">
+		<Translates>
+			<en-us>With the silver lock pick off in your hands and the magnet, you need to switch off the power located in the backyard. Then jump into an open window with a black wire running inside.
+
+Find the door with a silver lock on the left of the staircase and open it using the lock pick. 
+Take a wrench off the wall in your hands.
+
+Now you have to go back to the backyard, where you have just stolen the lock pick.</en-us>
+			<ru>С серебряной отмычкой в руках и магнитом вам нужно отключить электричество на счётчике, расположенное на заднем дворе. Затем запрыгните внутрь открытого окна с черным кабелем. 
+
+Найдите слева от лестницы дверь с серебряным замком и откройте ее с помощью отмычки. 
+Возьмите в руки гаечный ключ со стены. 
+
+Теперь вам нужно вернуться на задний двор, где вы только что украли отмычку.</ru>
+		</Translates>
+	</Key>
+	<Key Name="Tip 5">
+		<Translates>
+			<en-us>Tip 5</en-us>
+			<ru>Совет 5</ru>
+		</Translates>
+	</Key>
+	<Key Name="Act 1 Tip 5 Description">
+		<Translates>
+			<en-us>In the backyard, find the ladder blocked by a shoddy fence with some boards. Use the wrench on the fence to open the access to the ladder. 
+
+Climb on the ladder to the roof. Go left to the board till you see a hole in the ceiling. 
+Jump into the room. Explore and find the red key on a green table. Pick up the key. 
+
+Find some heavy item and break the window. Jump from it to the yard. 
+</en-us>
+			<ru>На заднем дворе найдите лестницу, заблокированную ветхим забором с несколькими досками. Используйте гаечный ключ на заборе, чтобы открыть доступ к лестнице. 
+
+Поднимитесь по лестнице на крышу. Идите налево к доске, пока не увидите дыру в потолке. 
+Прыгайте в комнату. Исследуйте и найдите красный ключ на зеленом столе. Возьмите ключ. 
+
+Найдите какой-нибудь тяжелый предмет и разбейте окно. Спрыгните с окна во двор.</ru>
+		</Translates>
+	</Key>
+	<Key Name="Tip 6">
+		<Translates>
+			<en-us>Tip 6</en-us>
+			<ru>Совет 6</ru>
+		</Translates>
+	</Key>
+	<Key Name="Act 1 Tip 6 Description">
+		<Translates>
+			<en-us>With the red key in hands, you almost complete Part 1 of Act 1. Yay!
+
+Go to the neighbor's house from the front door, enter the house and go to the right. Watch out, the neighbor is here! Inside the room, you will find a door with a red lock, open it with the red key that you have found previously.
+
+Enter the room, find a washing machine, click on it. The washing machine is a secret door to a basement, where the Part 2 will start. Go inside the secret door to a room with a bed, paintings on the wall, a ball and trash on the floor.
+</en-us>
+			<ru>С красным ключом в руках вы почти завершили первую часть первого акта. Ура! 
+
+Подойдите к дому соседа через парадную дверь, войдите в дом и идите направо. Осторожно, сосед здесь! Внутри комнаты вы найдете дверь с красным замком, откройте ее красным ключом, который вы нашли ранее. 
+
+Войдите в комнату, найдите стиральную машину, нажмите на нее. Стиральная машина — это потайная дверь в подвал, где начнется вторая часть. Войдите через секретную дверь в комнату с кроватью, картинами на стене, мячом и мусором на полу.</ru>
+		</Translates>
+	</Key>
+	<Key Name="Tip 7">
+		<Translates>
+			<en-us>Tip 7</en-us>
+			<ru>Совет 7</ru>
+		</Translates>
+	</Key>
+	<Key Name="Act 1 Tip 7 Description">
+		<Translates>
+			<en-us>After you have entered through the washing machine to the room, Part 2 starts. 
+The main goal of Part 2 is to unlock the green door and to enter it.
+
+Now you are inside the secret room with a bed, a ball and a trash. You need to throw some items (like a ball or a box) into the painting. After this, jump through the open window and go to the neighbor's basement location.</en-us>
+			<ru>После того, как вы вошли через стиральную машину в комнату, начинается часть 2. 
+Основная цель части 2 - открыть зеленую дверь и войти в нее. 
+
+Теперь вы в секретной комнате с кроватью, мячом и мусором. Вам нужно бросить некоторые предметы (например, мяч или коробку) в картину. После этого прыгайте в открытое окно и идите в соседский подвал.</ru>
+		</Translates>
+	</Key>
+	<Key Name="Tip 8">
+		<Translates>
+			<en-us>Tip 8</en-us>
+			<ru>Совет 8</ru>
+		</Translates>
+	</Key>
+	<Key Name="Act 1 Tip 8 Description">
+		<Translates>
+			<en-us>On the right side you will see a gate - open it. Enter through the gate, go to the left all the time, till you find a door to a bathroom, open it and enter. Pick up a chair near another door, and enter the next room with green balloons. Pick up another chair near the next door, and enter inside. You will exit into a corridor with concrete blocks on the left, go forward to the door before a fence. Enter the door, go through the room to the end, where you find another door with a chair, pick it up and enter the room. On your way you will find the flashlight, pick it up.
+
+Break the wall on your way and explore the area with a locked green door.
+
+Your goal here is to clear the way to all doors from chairs and wall and open all closed gates and doors. After you complete, go back to the beginning of the basement location where you have opened the gate previously.</en-us>
+			<ru>С правой стороны вы увидите ворота — откройте их. Войдите через ворота, идите все время налево, пока не найдете дверь в ванную, откройте ее и войдите. Поднимите стул возле другой двери и войдите в следующую комнату с зелеными бочками. Поднимите еще один стул возле следующей двери и войдите внутрь. Вы выйдете в коридор с бетонными блоками слева, идите вперед к двери перед забором. Войдите в дверь, пройдите комнату до конца, где найдете еще одну дверь со стулом, поднимите его и войдите в комнату. По пути вы найдете фонарик, подберите его. 
+
+Разбейте стену на своем пути и исследуйте область с запертой зеленой дверью. 
+
+Ваша цель здесь - расчистить путь ко всем дверям от стульев, разбить кирпичную стену и открыть все закрытые ворота и двери. После того, как вы закончите, вернитесь к началу подвала, где вы ранее открыли первые ворота.</ru>
+		</Translates>
+	</Key>
+	<Key Name="Tip 9">
+		<Translates>
+			<en-us>Tip 9</en-us>
+			<ru>Совет 9</ru>
+		</Translates>
+	</Key>
+	<Key Name="Act 1 Tip 9 Description">
+		<Translates>
+			<en-us>Go back to the beginning of the basement location and switch off the power. 
+
+Now you need to go to the other side of the fence where a generator with a red bulb is located that will open the gate on the green door. Or you can throw items together near the fence with a green door and jump through the fence to the generator. 
+
+If you have chosen to find the way to the generator, go through the door to the left, all the time left till you see the room with falling walls, go through it to the door. Then go to the room with the TV inside of it, and in the next room you will find the generator. Switch on the generator with a red bulb.</en-us>
+			<ru>Вернитесь в начало локации подвала и выключите электричество на счётчике. 
+
+Теперь вам нужно перейти на другую сторону забора, где находится генератор с красной лампочкой, который откроет ворота на зеленой двери. Или можете ставить предметы друг на друга возле забора с зеленой дверью и прыгать через забор к генератору. 
+
+Если все же вы решили найти путь к генератору, то пройдите через дверь слева, все время идите влево, пока не увидите комнату с упавшими стенами, пройдите через комнату к двери. Затем идите в комнату с телевизором внутри, а уже в следующей комнате вы найдете генератор. Включите генератор с красной лампочкой.</ru>
+		</Translates>
+	</Key>
+	<Key Name="Tip 10">
+		<Translates>
+			<en-us>Tip 10</en-us>
+			<ru>Совет 10</ru>
+		</Translates>
+	</Key>
+	<Key Name="Act 1 Tip 10 Description">
+		<Translates>
+			<en-us>After you have switched on the generator, climb up the items that are laying near the fence. Watch out, the neighbor is here. 
+
+Open the green door, and run forward from the neighbor. You need to run forward till you see the door with locks. The neighbor will catch you anyway, but Act 2 will start anyway after loading..</en-us>
+			<ru>После того, как вы включили генератор, взберитесь по предметам, лежащим возле забора. Осторожно, сосед здесь. 
+
+Откройте зеленую дверь и бегите все время вперед от соседа. Вам нужно бежать вперед, пока не увидите дверь с замками. Сосед вас все равно поймает, но акт 2 все равно начнется после загрузки..</ru>
+		</Translates>
+	</Key>
+	<Key Name="Act 2">
+		<Translates>
+			<en-us>Act 2</en-us>
+			<ru>Акт 2</ru>
+		</Translates>
+	</Key>
+	<Key Name="Tip 1">
+		<Translates>
+			<en-us>Tip 1</en-us>
+			<ru>Совет 1</ru>
+		</Translates>
+	</Key>
+	<Key Name="Act 2 Tip 1 Description">
+		<Translates>
+			<en-us>Welcome to Act 2 of the Hello Neighbor game! Act 2 will start in the basement's room, you will wake up in a bed.. Look at the door's keyhole and you will see a girl made of cardboard. Open the door to start your new journey! 
+
+Run to the left, find and open the manhole cover and run through the vent, where the red light is shining. Then jump down, find a ladder and climb on it. 
+
+Get out of the basement to the backyard of the house. 
+</en-us>
+			<ru>Добро пожаловать во второй акт игры Hello Neighbor! Акт 2 начнется в подвальной комнате, где вы проснетесь лежа в кровати. Посмотрите на замочную скважину в двери и вы увидите девушку из картона. 
+Затем откройте дверь, чтобы начать свое новое путешествие! 
+
+Бегите налево, найдите и откройте крышку люка и бегите через вентиляционное отверстие, где горит красный свет. Затем спрыгните вниз, найдите лестницу и поднимитесь по ней. 
+
+Выйдите из подвала на задний двор дома.</ru>
+		</Translates>
+	</Key>
+	<Key Name="Tip 2">
+		<Translates>
+			<en-us>Tip 2</en-us>
+			<ru>Совет 2</ru>
+		</Translates>
+	</Key>
+	<Key Name="Act 2 Tip 2 Description">
+		<Translates>
+			<en-us>While you are in the backyard of the house, look around! The neighbor fenced the house, you can not get out! 
+
+The main goal of Act 2 is to get out from your neighbor's house to your own safe shelter. 
+
+Let's start.. 
+
+Your first goal is to put the valve on the pipe using a wrench and turn three handles on three pipes. 
+
+Near the fence in the backyard, you will find boxes, take one in hand. Switch off the light on the power. 
+
+First pipe: On the right from the front door, in the fence opening, turn the handle on the pipe. 
+
+Second pipe: Go to the house from the front door, turn to the right, here you will see the sleeping neighbor. Be quiet! Near the neighbor you will see the pipe, turn the handle. 
+Go to the kitchen, open the freezer and take a wrench. 
+
+Break the window and jump out through it.</en-us>
+			<ru>Пока вы находитесь на заднем дворе дома, оглянитесь! Сосед огородил дом забором, вам не выбраться! 
+
+Основная цель Акта 2 — выбраться из дома соседа в собственное безопасное убежище. 
+
+Давайте начнем.. 
+
+Ваша первая цель — поставить клапан на трубу с помощью гаечного ключа и повернуть три ручки на трех трубах. 
+
+Возле забора на заднем дворе вы найдете ящики, возьмите один в руки. Выключите электричество на счётчике. 
+
+Первая труба: Справа от входной двери, в проеме забора, поверните ручку на трубе. 
+
+Вторая труба: Идите к дому от входной двери, поверните направо, здесь вы увидите спящего соседа. Ведите себя тихо! Возле соседа вы увидите трубу, поверните ручку. 
+
+Идите на кухню, откройте морозильник и возьмите гаечный ключ. 
+Разбейте окно и выпрыгните через него.</ru>
+		</Translates>
+	</Key>
+	<Key Name="Tip 3">
+		<Translates>
+			<en-us>Tip 3</en-us>
+			<ru>Совет 3</ru>
+		</Translates>
+	</Key>
+	<Key Name="Act 2 Tip 3 Description">
+		<Translates>
+			<en-us>Go back to the backyard. Open the ladder with the wrench. Go up the ladder. 
+
+Third pipe: Then turn to the right on the roof, and turn the handle on the pipe. 
+
+Jump down from the roof. 
+
+In the backyard near the fence and pipe with flowing water, you will find a valve. Take it. 
+
+Take one more box in your hands. 
+
+Go up the ladder, turn to the left. Near the old fence, put down the box, jump on it and walk along the edge of the fence to the pipe. You need to put the valve on the pipe using a wrench. This is not easy to do, but we believe in you! 
+
+After you finish, the water will flow. 
+</en-us>
+			<ru>Вернитесь на задний двор. Откройте лестницу гаечным ключом. Поднимитесь по лестнице.
+
+Третья труба: Затем поверните направо на крыше и поверните ручку на трубе.
+
+Спрыгните с крыши.
+
+На заднем дворе возле забора и трубы с проточной водой вы найдете вентиль. Возьмите его.
+
+Возьмите еще одну коробку в руки.
+
+Поднимитесь по лестнице, поверните налево. Возле старого забора поставьте ящик, запрыгните на него и пройдите по краю забора к трубе. Вам нужно надеть вентиль на трубу с помощью гаечного ключа. Сделать это непросто, но мы в вас верим!
+
+После того, как вы закончите, вода потечет.</ru>
+		</Translates>
+	</Key>
+	<Key Name="Tip 4">
+		<Translates>
+			<en-us>Tip 4</en-us>
+			<ru>Совет 4</ru>
+		</Translates>
+	</Key>
+	<Key Name="Act 2 Tip 4 Description">
+		<Translates>
+			<en-us>After you have put the valve on the pipe, go down. 
+
+Again go up by ladder and turn to the right. Open the door in the room and enter it. You will see one more ladder, climb up. Then go up the stairs and boards all the way, till you will see the white door. Open the door, but before turn to the right and take a shovel on a carpet. 
+
+Back to the previous room. Near next door you will see a key, use it to open the door. 
+
+Now you need to go back to the backyard.</en-us>
+			<ru>После того, как вы поставили вентиль на трубу, спускайтесь вниз. 
+
+Снова поднимитесь по лестнице и поверните направо. Откройте дверь в комнату и войдите в нее. Вы увидите еще одну лестницу, поднимитесь наверх. Затем поднимайтесь по лестнице и доскам до упора, пока не увидите белую дверь. Откройте дверь, но перед этим поверните направо и возьмите лопату на ковре. 
+
+Вернитесь в предыдущую комнату. Рядом с соседней дверью вы увидите ключ, используйте его, чтобы открыть дверь. 
+
+Теперь вам нужно вернуться на задний двор.</ru>
+		</Translates>
+	</Key>
+	<Key Name="Tip 5">
+		<Translates>
+			<en-us>Tip 5</en-us>
+			<ru>Совет 5</ru>
+		</Translates>
+	</Key>
+	<Key Name="Act 2 Tip 5 Description">
+		<Translates>
+			<en-us>In the backyard, dig the patch of dirt outside. Open the coffin in the ground, and take a yellow key with a red bow. 
+
+Now go to the ladder up. Turn to the right on the roof. Open the door, go up by the ladder inside the room, go up by stairs and boards. Enter a new room and turn to the right. In the third room you will see the hole in the ceiling. Jump down in it. 
+
+Here you will find a doll house. Open it. 
+
+Then open the door blocked by a chair. Enter the next room. 
+</en-us>
+			<ru>На заднем дворе выкопайте участок земли снаружи. Откройте гроб в земле и возьмите желтый ключ с красным бантом. 
+
+Теперь идите к лестнице наверх. Поверните направо на крышу. Откройте дверь, поднимитесь по лестнице внутри комнаты, поднимитесь по лестнице и доскам. Войдите в новую комнату и поверните направо. В третьей комнате вы увидите дыру в потолке. Спрыгните в неё. 
+
+Здесь вы найдете кукольный домик. Открой его. 
+
+Затем откройте дверь, заблокированную стулом. Войдите в следующую комнату.</ru>
+		</Translates>
+	</Key>
+	<Key Name="Tip 6">
+		<Translates>
+			<en-us>Tip 6</en-us>
+			<ru>Совет 6</ru>
+		</Translates>
+	</Key>
+	<Key Name="Act 2 Tip 6 Description">
+		<Translates>
+			<en-us>After you have entered the room, go down by a ladder. Turn to the left, where you will see the closed door and a key near it. Open the door. 
+
+Enter the door to the left , and find a real bathroom inside the neighbor's house. Take a doll with a crowbar. 
+
+Now you need to put the doll with the crowbar into the doll's house. Go back to the room with the doll's house and put the doll into the toilet bowl. 
+
+Go back to the real bathroom, where you will find a big doll with a big crowbar now. Grab the crowbar in your hands.</en-us>
+			<ru>После того, как вы вошли в комнату, спуститесь по лестнице. Поверните налево, где вы увидите закрытую дверь и ключ возле нее. Открой дверь. 
+
+Войдите в дверь слева и найдите настоящую ванную комнату в доме соседа. Возьмите куклу с ломом. 
+
+Теперь вам нужно поместить куклу с ломом в кукольный домик. Вернитесь в комнату с кукольным домиком и положите куклу в унитаз. 
+
+Вернитесь в настоящую ванную, где вы найдете большую куклу с большим ломом. Возьмите лом в руки.</ru>
+		</Translates>
+	</Key>
+	<Key Name="Tip 7">
+		<Translates>
+			<en-us>Tip 7</en-us>
+			<ru>Совет 7</ru>
+		</Translates>
+	</Key>
+	<Key Name="Act 2 Tip 7 Description">
+		<Translates>
+			<en-us>Now when you have the crowbar in your hands, you have to be very quiet! The neighbor is here... 
+
+Go out of the house. Switch off the light on the power in the backyard. 
+
+Find a fence with large nails hammered into boards. Use the crowbar to take the nails out of the boards. RUN to your own house. 
+
+There will be one more cutscene, and the Act 2 will be completed! Yay!</en-us>
+			<ru>Теперь, когда у вас в руках есть лом, вы должны вести себя очень тихо! Сосед здесь... 
+
+Выйдите из дома. Выключите электричество на счётчике на заднем дворе. 
+
+Найдите забор с большими гвоздями, вбитыми в доски. Используйте лом, чтобы вытащить гвозди из досок. БЕГИТЕ к себе домой. 
+
+Будет еще одна кат-сцена, и Акт 2 будет завершен! Ура!</ru>
+		</Translates>
+	</Key>
+	<Key Name="Act 3">
+		<Translates>
+			<en-us>Act 3</en-us>
+			<ru>Акт 3</ru>
+		</Translates>
+	</Key>
+	<Key Name="Tip 1">
+		<Translates>
+			<en-us>Tip 1</en-us>
+			<ru>Совет 1</ru>
+		</Translates>
+	</Key>
+	<Key Name="Act 3 Tip 1 Description">
+		<Translates>
+			<en-us>Welcome to Act 3 of the Hello Neighbor game! Act 3 will start in your own house, you will wake up in a bed.. Look around! Go to the kitchen, open the refrigerator and take an apple and a milk. 
+
+Go to the front door. A letter will be thrown to you through the mail slot in the door. Then you will see cutscene and understand what's going on. 
+
+After you are near a small broken house with a yellow car, slow down and stop! Open the trunk in the car and take a key. Open the front door of the house. You will now watch another cat scene. Wait for the phone to start ringing.</en-us>
+			<ru>Добро пожаловать в третий акт игры Hello Neighbor! Акт 3 начнется в вашем собственном доме, когда вы проснетесь в постели. Оглянитесь вокруг! Идите на кухню, откройте холодильник и возьмите яблоко и молоко. 
+
+Идите к входной двери. Через щель для почты в двери вам бросят письмо. Тогда вы увидите катсцену и поймете, что происходит. 
+
+После того, как вы окажетесь возле небольшого сломанного дома с желтой машиной, притормозите и остановитесь! Откройте багажник в машине и возьмите ключ. Откройте входную дверь дома. Теперь вы будете смотреть другую катсцену. Подождите, пока телефон зазвонит.</ru>
+		</Translates>
+	</Key>
+	<Key Name="Tip 2">
+		<Translates>
+			<en-us>Tip 2</en-us>
+			<ru>Совет 2</ru>
+		</Translates>
+	</Key>
+	<Key Name="Act 3 Tip 2 Description">
+		<Translates>
+			<en-us>After you wake up, go to the yard and take an apple and a bottle of milk to your hands, a box. We will go to the neighbor's house across the road again.. 
+
+Switch off the power in the backyard of my neighbor's house. Then go forward to the small open window. Put two boxes near the window, jump on them and look inside the window. You will see a red switch. Throw the apple on the red switch until it changes direction. 
+
+Near the small open window, throw the window with a hammer or any other item. Go inside the house, go up by a ladder. Then change the ladder and go up again. On the left side you will see a cabinet. Open it by clicking on the switch above the door with a red button. Go inside the cabinet , and you will find a room. Go to the left and go down by the red stairs. Open the door on the right and jump to the rails, go forward and then jump to the roof where the eye-catching carpet is. 
+
+Enter the room. Then enter the room blocked by a chair in front of the door. 
+
+Find a door with a moon above the door on the right. Come into the room. Look to the left and try to open a door ith sun above the door (the door will be closed). That's why you need to leave the room. Go to the balcony. </en-us>
+			<ru>После того, как вы проснетесь, идите во двор и возьмите в руки яблоко и бутылку молока, коробку. Мы снова пойдем к соседскому дому через дорогу.. 
+
+Выключите электричество на заднем дворе дома соседа. Затем идите вперед к маленькому открытому окну на заднем дворе. Поставьте возле окна два ящика, запрыгните на них и загляните вовнутрь окна. Вы увидите красный переключатель. Бросайте яблоко на красный переключатель, пока он не изменит направление. 
+
+Возле маленького открытого окна бросьте в окно молоток или любой другой предмет. Войдите в дом, поднимитесь по лестнице. Затем поменяйте лестницу и снова поднимитесь наверх. С левой стороны вы увидите шкаф. Откройте его, нажав на переключатель над дверью с красной кнопкой. Войдите в шкаф, и вы найдете комнату. Идите налево и спуститесь по красной лестнице. Откройте дверь справа и прыгайте на транспортную колею, идите вперед, а затем прыгайте на крышу, где находится бросающийся в глаза ковер. 
+
+Войди в комнату. Затем войдите в другую комнату, которая заблокирована стулом перед дверью. 
+
+Найдите дверь с луной над дверью справа. Заходите в комнату. Посмотрите налево и попробуйте открыть дверь с солнцем над дверью (дверь будет закрыта). По этому вам нужно покинуть комнату. Идите на балкон.</ru>
+		</Translates>
+	</Key>
+	<Key Name="Tip 3">
+		<Translates>
+			<en-us>Tip 3</en-us>
+			<ru>Совет 3</ru>
+		</Translates>
+	</Key>
+	<Key Name="Act 3 Tip 3 Description">
+		<Translates>
+			<en-us>From the balcony look to the left, you will see a pipe with a red valve. Click on the valve to take it. 
+
+Go forward for a while, and jump into the rails, and run forward up till you see the roof of the fourth floor on the left. Jump on the roof, and go to the right inside a room. Go left and you will find a room with a TV and sofa. On the sofa take an umbrella, take a box on the floor, and throw a box to a lamp. Float around using the umbrella. Without it, you will fall and respawn back at your house.
+
+Fly up with the umbrella to a yellow door and open it, your first mini game will load...
+</en-us>
+			<ru>С балкона посмотрите налево, увидите трубу с красным вентилем. Нажмите на вентиль, чтобы взять его. 
+
+Пройдите немного вперед, прыгните на транспортные рельсы и бегите вперед, пока не увидите крышу четвертого этажа слева. Прыгайте на крышу и идите направо в комнату. Затем идите налево, и вы найдете комнату с телевизором и диваном. На диване возьмите зонт, возьмите коробку на полу и бросьте коробкой в лампу. Двигайтесь вокруг, используя зонт. Без него вы упадете и возродитесь в своем доме. 
+
+Прилетите с зонтом к желтой двери вверх и откройте ее, загрузится ваша первая мини-игра...</ru>
+		</Translates>
+	</Key>
+	<Key Name="Tip 4">
+		<Translates>
+			<en-us>Tip 4</en-us>
+			<ru>Совет 4</ru>
+		</Translates>
+	</Key>
+	<Key Name="Act 3 Tip 4 Description">
+		<Translates>
+			<en-us>In the first mini game, your goal is to gather the same 5 items as in mannequin's shopping carts to your own shopping carts, and to proceed to the checkout.
+
+You have to be invisible to mannequins not to be caught. Hide in the cabinets, when you see them. Look at what's in the mannequin's shopping carts and find these items, and place them in your shopping cart.
+
+After you placed all 5 items to your shopping cart, run forward and proceed to the checkout. 
+
+Next, you will see a door labeled Exit. Click on the door, and you will be back to the game.</en-us>
+			<ru>В первой мини-игре ваша цель - собрать те же 5 предметов, что и в тележках для покупок манекенов, в свои собственные тележки для покупок и перейти к кассе.
+
+Вы должны быть невидимы для манекенов, чтобы вас не поймали. Спрячьтесь в шкафах, когда увидите их рядом. Посмотрите, что находится в корзинах манекенов, найдите эти предметы и поместите их в свою корзину.
+
+После того, как вы положили все 5 товаров в корзину, бегите вперед и переходите к оформлению заказа.
+
+Далее вы увидите дверь с надписью «Выход». Нажмите на дверь, и вы вернетесь в игру.</ru>
+		</Translates>
+	</Key>
+	<Key Name="Tip 5">
+		<Translates>
+			<en-us>Tip 5</en-us>
+			<ru>Совет 5</ru>
+		</Translates>
+	</Key>
+	<Key Name="Act 3 Tip 5 Description">
+		<Translates>
+			<en-us>After you finished the first mini game, jump down to a hole in the ceiling using the umbrella. In the room you will find a magnet, take it. 
+
+Go to another room blocked by a chair. Enter the room with a blue wallpaper and paintings with one eye on the wall. Go to the left of the room with light brown wallpaper, use the umbrella and boxes as stairs to jump high and touch the highest painting with an apple. 
+When you touch the painting with an apple, a passage will open. 
+
+But before you enter the passage, you need to go back to the previous room with a lot of paintings on the wall that lead to the yard. Take all the paintings in this room and throw them away. Behind one of the paintings you will see a small closet with a key. Take the key using the magnet.
+
+From the discarded paintings we pick up a small painting and throw it on the switch to open the room. Return to the room with the stairs and go up the stairs.</en-us>
+			<ru>После того, как вы закончите первую мини-игру, спрыгните в дыру в потолке, используя зонтик. В комнате вы найдете магнит, возьмите его.
+
+Идите в другую комнату, заблокированную стулом. Войдите в комнату с голубыми обоями и картинами с одним глазом на стене. Идите налево от комнаты со светло-коричневыми обоями, используйте зонт и ящики как лестницу, чтобы высоко прыгнуть и коснуться рукой самой высокой картины с яблоком.
+Когда вы коснетесь картины яблоком, откроется проход.
+
+Но прежде чем войти в проход, нужно вернуться в предыдущую комнату с множеством картин на стене, которая ведет во двор. Возьмите все картины в этой комнате и выбросьте их. За одной из картин вы увидите небольшой шкаф с ключом. Возьмите ключ, используя магнит.
+
+Из выброшенных картин поднимаем маленькую картину и кидаем на переключатель, чтобы открыть комнату. Вернитесь в комнату с лестницей и поднимитесь по лестнице.</ru>
+		</Translates>
+	</Key>
+	<Key Name="Tip 6">
+		<Translates>
+			<en-us>Tip 6</en-us>
+			<ru>Совет 6</ru>
+		</Translates>
+	</Key>
+	<Key Name="Act 3 Tip 6 Description">
+		<Translates>
+			<en-us>Go to the door with a crossed out gun above the door. Go to the right into a dark blue room. Then in the violet room you will see a big pipe inside the room and a key located under the cell fence. 
+
+Go to the room with cable. On the shelf, find the binoculars. Drop the binoculars to the switcher with a red button under the cell fence till you click on it, and the cell fence with the key in the next room will open. Take a key in the next room. 
+
+Go to the room. Unlock the chair in front of the door, open the door. Here you will see the next room from the top to the bottom. On the right side, open a power, take a hot crowbar with the magnet.</en-us>
+			<ru>Идите к двери с перечеркнутым пистолетом над дверью. Идите направо в темно-синюю комнату. Затем в фиолетовой комнате вы увидите большую трубу внутри комнаты и ключ, расположенный под решеткой. 
+
+Идите в комнату с кабелем. На полке найдите бинокль. Бросайте биноклем на переключатель с красной кнопкой под решеткой, пока не нажмете на него, и решетка с ключом в соседней комнате откроется. Возьмите ключ в соседней комнате. 
+
+Идите в комнату. Разблокируйте стул перед дверью, откройте дверь. Здесь вы увидите следующую комнату сверху вниз. С правой стороны открываем электрический счётчик, берите раскаленный лом с помощью магнита.</ru>
+		</Translates>
+	</Key>
+	<Key Name="Tip 7">
+		<Translates>
+			<en-us>Tip 7</en-us>
+			<ru>Совет 7</ru>
+		</Translates>
+	</Key>
+	<Key Name="Act 3 Tip 7 Description">
+		<Translates>
+			<en-us>Jump down into a hole in the ceiling. Switch on the switcher on the wall. The jail cell will open. Enter the room, go to the bathroom. Switch on the water and take the hot crowbar with the magnet, to cool it down until it changes the color. 
+
+Break the window in the room. Take the crowbar in your hands and jump to the yard. 
+
+Go back to your own house and leave the crowbar and magnet near your door.</en-us>
+			<ru>Спрыгните в дыру в потолке. Включите выключатель на стене. Тюремная камера откроется. Войдите в комнату, идите в ванную. Включите воду и возьмите горячий лом с магнитом, чтобы охладить его под водой, пока он не изменит цвет. 
+
+Разбейте окно в комнате. Возьмите лом в руки и прыгайте во двор. 
+
+Вернитесь в свой дом и оставьте лом и магнит возле двери.</ru>
+		</Translates>
+	</Key>
+	<Key Name="Tip 8">
+		<Translates>
+			<en-us>Tip 8</en-us>
+			<ru>Совет 8</ru>
+		</Translates>
+	</Key>
+	<Key Name="Act 3 Tip 8 Description">
+		<Translates>
+			<en-us>Go back to the neighbor's house. In the backyard switch off the light. Again break the window near a small open window, and go inside the house. 
+
+Go up by the ladder on the left side, then by the second ladder go up! Enter the room. Go down by the ladder to another room. Jump to the rails. Jump to the part of the house with bright carpet. 
+
+Join the room and go left, then to the right door, and again to the left door. Go up to a green shelf, then jump inside to a toaster, and select the direction to the green arrow at the top. It will not work for you yet. So go up by jumping on shelves till you see the hole in a wall. Run forward by a wooden tunnel. Jump on the shelves. When you see a switch, pull it. 
+
+After you pull the switcher, jump inside the toaster, and it will help you to jump higher in the direction to the green arrow on the top, so select the right direction. 
+</en-us>
+			<ru>Вернитесь к дому соседа. На заднем дворе выключите электричество на счётчике. Снова разбейте окно возле маленького открытого окна и войдите вовнутрь дома. 
+
+Поднимитесь по лестнице с левой стороны, затем по второй лестнице! Войди в комнату. Спуститесь по лестнице в другую комнату. Перейти к рельсам. Прыгните в часть дома с ярким ковром. 
+
+Заходите в комнату и идите налево, затем идите к правой двери и снова к левой двери. Подойдите к зеленой полке, затем прыгните во внутрь тостера и выберите направление к зеленой стрелке вверху. Прыжок из тостера еще не сработает для вас. Так что поднимайтесь, прыгая по полкам, пока не увидите дыру в стене. Бегите вперед по деревянному туннелю. Прыгайте по полкам. Когда вы увидите переключатель, потяните его. 
+
+После того, как вы потяните переключатель, прыгайте во внутрь тостера, и это поможет вам прыгнуть выше в направлении к зеленой стрелке наверху, поэтому выберите правильное направление к стрелке.</ru>
+		</Translates>
+	</Key>
+	<Key Name="Tip 9">
+		<Translates>
+			<en-us>Tip 9</en-us>
+			<ru>Совет 9</ru>
+		</Translates>
+	</Key>
+	<Key Name="Act 3 Tip 9 Description">
+		<Translates>
+			<en-us>After you jump from the toaster to the green arrow. Go up by the shelves. When you see the darts game, take 2 darts that will help you as a stairs soon.
+
+When you climb up to the picture that will block the passage further, throw darts and make yourself a ladder for jumping. Go up, follow the arrow. 
+
+Then jump on a red button and open the door. Enter a blue room. Take the umbrella and fly up. Then go down and jump to the train on rails. To control the train, turn the lever in the driver's cab. 
+
+The train will take you to the neighbor's rooftop garden. Once you're there, jump onto the top of the wagon and climb up to the tree garden.</en-us>
+			<ru>После прыгните с тостера на зеленую стрелку. Поднимитесь по полкам. Когда вы увидите игру в дартс, возьмите 2 дротика, которые вскоре помогут вам в качестве лестницы. 
+
+Когда вы подниметесь до картины, которая заблокирует проход, бросьте дротики и сделайте себе лестницу для прыжков. Поднимитесь, и следуйте далее за стрелкой. 
+
+Затем прыгайте на красную кнопку и открывайте дверь. Войдите в синюю комнату. Возьми зонт и взлетите. Затем спускайтесь вниз и прыгайте на поезд по рельсам. Чтобы управлять поездом, поверните рычаг в кабине машиниста. 
+
+Поезд доставит вас в соседский сад на крыше. Как только вы окажетесь там, прыгайте на крышу фургона и поднимайтесь в сад с деревьями.</ru>
+		</Translates>
+	</Key>
+	<Key Name="Tip 10">
+		<Translates>
+			<en-us>Tip 10</en-us>
+			<ru>Совет 10</ru>
+		</Translates>
+	</Key>
+	<Key Name="Act 3 Tip 10 Description">
+		<Translates>
+			<en-us>Jump down into the room where the train stopped in front of. 
+On the left you will see a room that will be littered with boxes. Free the room from the boxes (pick up the box and throw it aside). Jump inside the room has been already cleared of boxes. 
+
+Go inside the room behind the skein barrel and find a green key. Take it. 
+
+Go down to the neighbor's yard, go through the broken window in the backyard. Find a door with a green lock. Open it. 
+
+The second mini game will load..</en-us>
+			<ru>Спрыгните в комнату, где остановился поезд. 
+Слева вы увидите комнату, которая будет завалена коробками. Освободите комнату от коробок (подберите коробку и отбросьте в сторону). Прыгайте вовнутрь уже очищенной от коробок комнаты. 
+
+Войдите в комнату за бочкой и найдите зеленый ключ. Возьми его. 
+
+Спуститесь во двор соседа, пройдите через разбитое окно на заднем дворе. Найдите дверь с зеленым замком. Открой дверь. 
+
+Загрузится вторая мини-игра.</ru>
+		</Translates>
+	</Key>
+	<Key Name="Tip 11">
+		<Translates>
+			<en-us>Tip 11</en-us>
+			<ru>Совет 11</ru>
+		</Translates>
+	</Key>
+	<Key Name="Act 3 Tip 11 Description">
+		<Translates>
+			<en-us>You are now in the second and last mini game of Act 3. Hide in the cabinets, when you see the mannequins and run forward to the Exit door. 
+The glowing mannequin is a teacher that moves around while the students are at their desks. 
+
+After you finish the mini game, you will wake up in bed. 
+</en-us>
+			<ru>Теперь вы находитесь во второй и последней мини-игре Акта 3. Спрячьтесь в шкафах, когда увидите манекенов рядом, и бегите вперед к двери с табличкой Exit. 
+Светящийся манекен — это учитель, который передвигается, пока ученики сидят за партами. 
+
+После того, как вы закончите мини-игру, вы проснетесь в постели.</ru>
+		</Translates>
+	</Key>
+	<Key Name="Tip 12">
+		<Translates>
+			<en-us>Tip 12</en-us>
+			<ru>Совет 12</ru>
+		</Translates>
+	</Key>
+	<Key Name="Act 3 Tip 12 Description">
+		<Translates>
+			<en-us>You will wake up in the neighbor's house. Take the key from the door, open it. Exit to the yard. Run inside the house from the main entrance. 
+
+In the kitchen you will find a kettle, turn on the gas on the stove. Fill the kettle with water. Hold the kettle above the stove, then lift the hot kettle to the freezer in the refrigerator. Steam from the kettle you will unfreeze the pass key. 
+
+Go to the yellow door, remove the nails with a crowbar, recline the chair. Attach the pass to the door on the left. Go inside. 
+
+You will see a washing machine, and the Part 2 of Act 3 will load - the entrance to the neighbor's basement, which looks just like the basement from Act 1.</en-us>
+			<ru>Вы проснетесь в доме соседа. Возьмите ключ от двери, откройте ее. выйдите во двор. Бегите вовнутрь дома от главного входа. 
+
+На кухне найдете чайник, включите газ на плите. Наполните чайник водой. Держите чайник над плитой, затем поднимите горячий чайник в морозильную камеру холодильника. Паром из чайника вы разморозите карточный ключ. 
+
+Подойдите к желтой двери, ломом удалите гвозди, откиньте кресло. Прикрепите карточный ключ к двери слева. Пройдите вовнутрь. 
+
+Вы увидите стиральную машину, и загрузится часть 2 акта 3 - вход в подвал соседа, который выглядит точно так же, как подвал из акта 1.</ru>
+		</Translates>
+	</Key>
+	<Key Name="Tip 13">
+		<Translates>
+			<en-us>Tip 13</en-us>
+			<ru>Совет 13</ru>
+		</Translates>
+	</Key>
+	<Key Name="Act 3 Tip 13 Description">
+		<Translates>
+			<en-us>After you went inside the washing machine, go inside the white door. You will see a similar room with paintings from Act 1 in the basement. But now you don't need to jump into a window that hides under paintings. Go forward through the wall, there will be a hole. 
+
+Then turn to the right, and run through the corridor with a blue wallpaper and old furniture, barrels, broken wall on the floor. Go to the left all the time, till you see the flowing water from a pipe. Go forward carefully, as in the next dark room the ghost will be. Let the ghost go forward, and then you can continue your move. 
+</en-us>
+			<ru>После того, как вы войдете в стиральную машину, далее войдите в белую дверь. В подвале вы увидите аналогичную комнату с картинами из Акта 1. Но теперь вам не нужно прыгать в окно, которое прячется под картинами. Пройдите вперед через стену, там будет дыра. 
+
+Затем поверните направо и бегите по коридору с синими обоями и старой мебелью, бочками, сломанной стеной на полу. Идите все время налево, пока не увидите текущую воду из трубы. Идите вперед осторожно, так как в соседней темной комнате будет призрак. Позвольте призраку пройти вперед, а затем вы сможете продолжить свой ход.</ru>
+		</Translates>
+	</Key>
+	<Key Name="Tip 14">
+		<Translates>
+			<en-us>Tip 14</en-us>
+			<ru>Совет 14</ru>
+		</Translates>
+	</Key>
+	<Key Name="Act 3 Tip 14 Description">
+		<Translates>
+			<en-us>Go to the right and forward on the red light. Take a chair near a door on the left side. Join the room and break the wall from bricks. 
+
+Run up to the fence and double jump over the metal fence to the green door. Open the green door. Run forward by turning in the right direction to the next door. Open the door and come into the room. The final act will load... </en-us>
+			<ru>Идите направо и вперед на красный свет. Возьмите стул возле двери с левой стороны. зайдите в комнату и разбейте стену из кирпичей.
+
+Подбегите издали к забору и двойным прыжком перепрыгните через металлический забор к зеленой двери. Откройте зеленую дверь. Бегите вперед, повернув в правильном направлении к следующей двери. Откройте дверь и войдите в комнату. Финальный акт будет загружаться...</ru>
+		</Translates>
+	</Key>
+</Keys>

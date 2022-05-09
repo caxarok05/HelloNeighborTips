@@ -9,15 +9,18 @@ EditorBuildSettings:
     path: Assets/Scenes/MenuScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/SettingsScene.unity
-    guid: c31a46da29f473346a87f31febf9de36
-  - enabled: 1
     path: Assets/Scenes/ActsScene.unity
     guid: d2aaf9ab59a02d14685699eee3d30894
+  - enabled: 1
+    path: Assets/Scenes/SettingsScene.unity
+    guid: c31a46da29f473346a87f31febf9de36
   - enabled: 1
     path: Assets/Scenes/CurrentActScene.unity
     guid: 6e3dfbbbb067b5d4aaf68261a3355f27
   - enabled: 1
     path: Assets/Scenes/ContentScene.unity
     guid: da922c34601d4b34ebc9cd1c38b294fe
+  - enabled: 1
+    path: Assets/Scenes/ChooseLanguageScene.unity
+    guid: 54abe87330494844da127a488d9d07ce
   m_configObjects: {}

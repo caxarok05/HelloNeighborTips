@@ -140,7 +140,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &24134002
 RectTransform:
   m_ObjectHideFlags: 0
@@ -340,8 +340,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -26.999994}
-  m_SizeDelta: {x: 594.21, y: 285.3}
+  m_AnchoredPosition: {x: -0.000019073, y: 78}
+  m_SizeDelta: {x: 692.07, y: 490.5233}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &119965037
 MonoBehaviour:
@@ -367,17 +367,16 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 40
     m_FontStyle: 1
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 3
-    m_MaxSize: 40
+    m_MaxSize: 60
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: YOU HAVE TO AGREE TO OUR PRIVACY POLICY IN ORDER TO CONTINUE TO USE THIS
-    APPLICATION
+  m_Text: GDPRText
 --- !u!222 &119965038
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -395,10 +394,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 119965035}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d4c201982e5811429c26207eb14b8dd, type: 3}
+  m_Script: {fileID: 11500000, guid: da96abebf2bb7e349925448657612651, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: PrivacyPolicyText
 --- !u!1 &157221809
 GameObject:
   m_ObjectHideFlags: 0
@@ -433,8 +431,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0000030398, y: 0.0000038147}
-  m_SizeDelta: {x: 42.83, y: 41.34}
+  m_AnchoredPosition: {x: 0.0000023842, y: -0.000025272}
+  m_SizeDelta: {x: 48.8462, y: 47.1469}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &157221811
 MonoBehaviour:
@@ -561,6 +559,7 @@ GameObject:
   - component: {fileID: 448535962}
   - component: {fileID: 448535961}
   - component: {fileID: 448535960}
+  - component: {fileID: 448535963}
   m_Layer: 5
   m_Name: ShareButton
   m_TagString: Untagged
@@ -632,10 +631,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1583573839}
-        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
-        m_MethodName: OpenURL
-        m_Mode: 5
+      - m_Target: {fileID: 448535963}
+        m_TargetAssemblyTypeName: ShareButton, Assembly-CSharp
+        m_MethodName: ShareButtonClick
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -682,6 +681,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 448535958}
   m_CullTransparentMesh: 1
+--- !u!114 &448535963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448535958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20ec9065183c5c84e940e24039706f3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _shareTextRus: "\u041F\u0440\u0438\u0432\u0435\u0442. \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u0438
+    \u043A\u043B\u0430\u0441\u0441\u043D\u044B\u0439 \u0433\u0430\u0439\u0434 Tips
+    for Hi Neighbor All Acts \u043F\u043E \u044D\u0442\u043E\u0439 \u0441\u0441\u044B\u043B\u043A\u0435:
+    ___"
+  _shareTextEn: 'Hey! Install this amazing guide Tips for Hi Neighbor All Acts by
+    following this link: ____'
 --- !u!1 &460597226
 GameObject:
   m_ObjectHideFlags: 0
@@ -717,7 +734,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -27}
+  m_AnchoredPosition: {x: 0, y: -9}
   m_SizeDelta: {x: -192.28, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &460597228
@@ -753,7 +770,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: START
+  m_Text: MenuStart
 --- !u!222 &460597229
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -771,10 +788,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 460597226}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d4c201982e5811429c26207eb14b8dd, type: 3}
+  m_Script: {fileID: 11500000, guid: da96abebf2bb7e349925448657612651, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: Start
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -829,7 +845,7 @@ Camera:
   field of view: 60
   orthographic: 1
   orthographic size: 5
-  m_Depth: -1
+  m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -965,8 +981,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 25.680008, y: -25.68}
-  m_SizeDelta: {x: 51.37, y: 51.37}
+  m_AnchoredPosition: {x: 31.7436, y: -31.744}
+  m_SizeDelta: {x: 63.4971, y: 63.497}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &757254453
 MonoBehaviour:
@@ -1041,8 +1057,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -0, y: -6}
+  m_SizeDelta: {x: -18.5372, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &865331147
 MonoBehaviour:
@@ -1065,19 +1081,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 67
+    m_Font: {fileID: 12800000, guid: 9bc0aa16f1b6c394e8b2cd159dc6c8e6, type: 3}
+    m_FontSize: 6
     m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 73
+    m_BestFit: 1
+    m_MinSize: 0
+    m_MaxSize: 92
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NEXT
+  m_Text: GDPRNext
 --- !u!222 &865331148
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1095,10 +1111,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 865331145}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d4c201982e5811429c26207eb14b8dd, type: 3}
+  m_Script: {fileID: 11500000, guid: da96abebf2bb7e349925448657612651, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: NextButton
 --- !u!1 &909738428
 GameObject:
   m_ObjectHideFlags: 0
@@ -1325,7 +1340,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1365533917
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1342,8 +1357,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00000023842, y: 450}
-  m_SizeDelta: {x: 408.68, y: 95.23}
+  m_AnchoredPosition: {x: 0.0000019073, y: 448.9045}
+  m_SizeDelta: {x: 492.9821, y: 125.4371}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1365533918
 MonoBehaviour:
@@ -1369,16 +1384,16 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 40
     m_FontStyle: 1
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 3
-    m_MaxSize: 40
+    m_MaxSize: 60
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: CHOOSE YOUR AGE
+  m_Text: GDPRChooseyourage
 --- !u!222 &1365533919
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1396,10 +1411,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1365533916}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d4c201982e5811429c26207eb14b8dd, type: 3}
+  m_Script: {fileID: 11500000, guid: da96abebf2bb7e349925448657612651, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: ChooseYourAge
 --- !u!1 &1386316918
 GameObject:
   m_ObjectHideFlags: 0
@@ -1678,7 +1692,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 6
+  m_Text: <6
 --- !u!222 &1529836650
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1722,7 +1736,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -3.3200073, y: -23}
+  m_AnchoredPosition: {x: -3.3200073, y: -3}
   m_SizeDelta: {x: -192.27, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1560079629
@@ -1758,7 +1772,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: SHARE
+  m_Text: MenuShare
 --- !u!222 &1560079630
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1776,10 +1790,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1560079627}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d4c201982e5811429c26207eb14b8dd, type: 3}
+  m_Script: {fileID: 11500000, guid: da96abebf2bb7e349925448657612651, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: Share
 --- !u!1 &1583573838
 GameObject:
   m_ObjectHideFlags: 0
@@ -1817,7 +1830,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1583573838}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.74437594, y: 0.3429041, z: 180.42157}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1855,10 +1868,10 @@ RectTransform:
   m_Father: {fileID: 1659045743}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 634}
-  m_SizeDelta: {x: 940, y: 332.21}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -326}
+  m_SizeDelta: {x: 940, y: 332.20996}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1606436634
 MonoBehaviour:
@@ -1893,7 +1906,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'HELLO NEIGHBOR
+  m_Text: 'HI NEIGHBOR
 
     TIPS'
 --- !u!222 &1606436635
@@ -1930,9 +1943,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1612090856}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 463e35f21ac98ec498455561edf36f8b, type: 3}
+  m_Script: {fileID: 11500000, guid: a04513149e98063468467d6199849e03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _textFile: {fileID: 4900000, guid: 67decaa75730921448952045fc9aadb2, type: 3}
+  RussianFont: {fileID: 12800000, guid: df1d3d0bbb952d9428dbd13d01e6a2e0, type: 3}
+  EnglishFont: {fileID: 12800000, guid: 9bc0aa16f1b6c394e8b2cd159dc6c8e6, type: 3}
 --- !u!4 &1612090858
 Transform:
   m_ObjectHideFlags: 0
@@ -2070,12 +2086,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1080, y: 1920}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -2090,7 +2106,7 @@ Canvas:
   m_GameObject: {fileID: 1659045739}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_Camera: {fileID: 519420031}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -2100,7 +2116,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_TargetDisplay: 0
 --- !u!224 &1659045743
 RectTransform:
@@ -2162,8 +2178,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -95, y: -249}
-  m_SizeDelta: {x: 413.77, y: 51.72}
+  m_AnchoredPosition: {x: -58.536293, y: -245.76443}
+  m_SizeDelta: {x: 486.6974, y: 63.4802}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1723164161
 MonoBehaviour:
@@ -2260,8 +2276,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 25.410004, y: -0.4999981}
-  m_SizeDelta: {x: -60.82, y: -3}
+  m_AnchoredPosition: {x: 45, y: -0.003917694}
+  m_SizeDelta: {x: -53.6797, y: 34.5067}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1731751060
 MonoBehaviour:
@@ -2285,18 +2301,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 40
+    m_FontSize: 55
     m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 4
-    m_MaxSize: 40
+    m_MinSize: 0
+    m_MaxSize: 55
     m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: I AGREE
+  m_Text: GDPRAgree
 --- !u!222 &1731751061
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2314,10 +2330,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1731751058}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d4c201982e5811429c26207eb14b8dd, type: 3}
+  m_Script: {fileID: 11500000, guid: da96abebf2bb7e349925448657612651, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: policyLabel
 --- !u!1 &1751936028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2336,7 +2351,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1751936029
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2450,8 +2465,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 372.09}
-  m_SizeDelta: {x: 601.47, y: 60.58}
+  m_AnchoredPosition: {x: -0.000022888, y: 425}
+  m_SizeDelta: {x: 765.7397, y: 153.1319}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1755609058
 MonoBehaviour:
@@ -2475,18 +2490,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 37
+    m_FontSize: 0
     m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 42
+    m_BestFit: 1
+    m_MinSize: 0
+    m_MaxSize: 80
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Privacy Policy
+  m_Text: GDPRPrivacyPolicy
 --- !u!222 &1755609059
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2548,7 +2563,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: https://www.youtube.com/watch?v=8fgO3wnh2E4
+          m_StringArgument: https://docs.google.com/document/d/1ECZqns_LgGjDNMRxWzmjwrI8sSq_qmh6GBPdinxNOPc/edit
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1755609061
@@ -2560,10 +2575,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1755609056}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d4c201982e5811429c26207eb14b8dd, type: 3}
+  m_Script: {fileID: 11500000, guid: da96abebf2bb7e349925448657612651, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: PrivacyPolicyLink
 --- !u!1 &1760781556
 GameObject:
   m_ObjectHideFlags: 0
@@ -2732,7 +2746,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 3.3099976, y: -27}
+  m_AnchoredPosition: {x: 3.3099976, y: -11}
   m_SizeDelta: {x: -182.34, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1852109604
@@ -2768,7 +2782,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: SETTINGS
+  m_Text: MenuSettings
 --- !u!222 &1852109605
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2786,7 +2800,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1852109602}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d4c201982e5811429c26207eb14b8dd, type: 3}
+  m_Script: {fileID: 11500000, guid: da96abebf2bb7e349925448657612651, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: SettingsButton

@@ -8,7 +8,7 @@ public class SliderValueScript : MonoBehaviour
     private Slider _slider;
     private Text _text;
 
-    void Awake()
+    private void Awake()
     {
         _text = GetComponentInChildren<Text>();
         _slider = GetComponent<Slider>();
@@ -16,6 +16,18 @@ public class SliderValueScript : MonoBehaviour
 
     public void ShowSliderValue()
     {
-        _text.text = _slider.value.ToString();
+        if (_slider.value == 6)
+        {
+            _text.text = "<" + _slider.value.ToString();
+        }
+        else if(_slider.value == 65)
+        {
+            _text.text =  _slider.value.ToString() + "+";
+        }
+        else
+        {
+            _text.text = _slider.value.ToString();
+        }
+
     }
 }

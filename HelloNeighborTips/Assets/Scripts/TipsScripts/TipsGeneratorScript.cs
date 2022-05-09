@@ -6,16 +6,17 @@ using UnityEngine.UI;
 public class TipsGeneratorScript : MonoBehaviour
 {
     public static int ActIndex = 0;
-
     public static List<GameObject> TipsButtonList = new List<GameObject>();
     public static int CurrentIndex = 0;
 
     [SerializeField] private GameObject _content;
+
     [SerializeField] private GameObject _tipPrefab;
 
     [SerializeField] private GameController _gameController;
 
-    [SerializeField] private LocalizationManager _localizationManager;
+    [SerializeField] private Font RussianFont;
+    [SerializeField] private Font EnglishFont;
 
     private GameObject _tip;
 
@@ -31,13 +32,15 @@ public class TipsGeneratorScript : MonoBehaviour
         {         
             _tip = Instantiate(_tipPrefab, _content.transform);
             TipsButtonList.Add(_tip);
-            if (_localizationManager.CurrentLanguage == "ru_RU")
+            if (LocalizationManagerXML.SelectedLanguage == 1)
             {
-                _tip.GetComponentInChildren<Text>().text = $"«¿Ã≈“ ¿  {i + 1}";
+                _tip.GetComponentInChildren<Text>().text = $"—Œ¬≈“  {i + 1}";
+                _tip.GetComponentInChildren<Text>().font = RussianFont;
             }
-            else if (_localizationManager.CurrentLanguage == "ru_RU")
+            else if (LocalizationManagerXML.SelectedLanguage == 0)
             {
                 _tip.GetComponentInChildren<Text>().text = $"TIP {i + 1}";
+                _tip.GetComponentInChildren<Text>().font = EnglishFont;
             }
 
             _tip.GetComponentInChildren<TipButtonScript>().TipIndex = i;
