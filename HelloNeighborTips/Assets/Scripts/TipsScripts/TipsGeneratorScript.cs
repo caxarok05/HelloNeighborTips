@@ -16,7 +16,7 @@ public class TipsGeneratorScript : MonoBehaviour
     [SerializeField] private GameController _gameController;
 
     [SerializeField] private Font RussianFont;
-    [SerializeField] private Font EnglishFont;
+    [SerializeField] private Font ForeighFont;
 
     private GameObject _tip;
 
@@ -34,13 +34,23 @@ public class TipsGeneratorScript : MonoBehaviour
             TipsButtonList.Add(_tip);
             if (LocalizationManagerXML.SelectedLanguage == 1)
             {
-                _tip.GetComponentInChildren<Text>().text = $"янбер  {i + 1}";
+                _tip.GetComponentInChildren<Text>().text = $"янбер {i + 1}";
                 _tip.GetComponentInChildren<Text>().font = RussianFont;
             }
             else if (LocalizationManagerXML.SelectedLanguage == 0)
             {
                 _tip.GetComponentInChildren<Text>().text = $"TIP {i + 1}";
-                _tip.GetComponentInChildren<Text>().font = EnglishFont;
+                _tip.GetComponentInChildren<Text>().font = ForeighFont;
+            }
+            else if (LocalizationManagerXML.SelectedLanguage == 2)
+            {
+                _tip.GetComponentInChildren<Text>().text = $"DICA {i + 1}";
+                _tip.GetComponentInChildren<Text>().font = ForeighFont;
+            }
+            else if (LocalizationManagerXML.SelectedLanguage == 3)
+            {
+                _tip.GetComponentInChildren<Text>().text = $"CONSEJO {i + 1}";
+                _tip.GetComponentInChildren<Text>().font = ForeighFont;
             }
 
             _tip.GetComponentInChildren<TipButtonScript>().TipIndex = i;

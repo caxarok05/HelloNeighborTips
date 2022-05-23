@@ -437,3 +437,16 @@ MonoBehaviour:
     - TipImage: {fileID: 0}
       TipText: 
       LocalizationIndex: Act 3 Tip 14 Description
+  - TipsList:
+    - TipImage: {fileID: 0}
+      TipText: 
+      LocalizationIndex: Act 4 Tip 1 Description
+    - TipImage: {fileID: 0}
+      TipText: 
+      LocalizationIndex: Act 4 Tip 2 Description
+    - TipImage: {fileID: 0}
+      TipText: 
+      LocalizationIndex: Act 4 Tip 3 Description
+    - TipImage: {fileID: 0}
+      TipText: 
+      LocalizationIndex: Act 4 Tip 4 Description

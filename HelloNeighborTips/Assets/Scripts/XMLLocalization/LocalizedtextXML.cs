@@ -44,13 +44,14 @@ public class LocalizedtextXML : MonoBehaviour
     {
         _text = GetComponent<Text>();
         _key = _text.text;
-        if (LocalizationManagerXML.SelectedLanguage == 0)
-        {
-            _text.font = _localizationManagerXML.EnglishFont;
-        }
         if (LocalizationManagerXML.SelectedLanguage == 1)
         {
             _text.font = _localizationManagerXML.RussianFont;
         }
+        else
+        {
+            _text.font = _localizationManagerXML.ForeighFont;
+        }    
+        
     }
 }

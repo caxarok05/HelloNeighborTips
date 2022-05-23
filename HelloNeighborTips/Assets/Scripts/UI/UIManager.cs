@@ -6,6 +6,11 @@ using UnityEngine.SceneManagement;
 public class UIManager : MonoBehaviour
 {
 
+    private void Start()
+    {
+        Screen.fullScreen = false;
+    }
+
     public void ChangeScene(string SceneName)
     {
         SceneManager.LoadScene(SceneName);

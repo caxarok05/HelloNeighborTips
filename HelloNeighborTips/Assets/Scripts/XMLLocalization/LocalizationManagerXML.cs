@@ -11,7 +11,7 @@ public class LocalizationManagerXML : MonoBehaviour
     public delegate void LanguageChangeHandler();
 
     public Font RussianFont;
-    public Font EnglishFont;
+    public Font ForeighFont;
 
     [SerializeField] private TextAsset _textFile;
 
@@ -37,12 +37,35 @@ public class LocalizationManagerXML : MonoBehaviour
 
     private void Awake()
     {
+       
         if (PlayerPrefs.HasKey("Localization"))
         {
             SelectedLanguage = PlayerPrefs.GetInt("Localization");
         }
+        if (_localization == null && (Application.systemLanguage.ToString() == SystemLanguage.Russian.ToString() ||
+            Application.systemLanguage.ToString() == SystemLanguage.Belarusian.ToString() ||
+            Application.systemLanguage.ToString() == SystemLanguage.Ukrainian.ToString()) && !PlayerPrefs.HasKey("PrivacyPolicykey"))
+        {
+            SelectedLanguage = 1;
+            LoadLocalization();
+        }
+        if (_localization == null && Application.systemLanguage.ToString() == SystemLanguage.English.ToString() && !PlayerPrefs.HasKey("PrivacyPolicykey"))
+        {
+            SelectedLanguage = 0;
+            LoadLocalization();
+        }
+        if (_localization == null && Application.systemLanguage.ToString() == SystemLanguage.Portuguese.ToString() && PlayerPrefs.HasKey("PrivacyPolicykey"))
+        {
+            SelectedLanguage = 2;
+            LoadLocalization();
+        }
+        if (_localization == null && Application.systemLanguage.ToString() == SystemLanguage.Spanish.ToString() && PlayerPrefs.HasKey("PrivacyPolicykey"))
+        {
+            SelectedLanguage = 3;
+            LoadLocalization();
+        }
         if (_localization == null)
-            LoadLocalization();   
+            LoadLocalization();
     }
 
     private void LoadLocalization()

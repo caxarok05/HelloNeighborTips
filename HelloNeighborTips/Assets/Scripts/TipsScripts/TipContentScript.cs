@@ -16,7 +16,7 @@ public class TipContentScript : MonoBehaviour
     [SerializeField] private GameController _gameController;
 
     [SerializeField] private Font RussianFont;
-    [SerializeField] private Font EnglishFont;
+    [SerializeField] private Font ForeighFont;
 
     private void Awake()
     {
@@ -37,8 +37,19 @@ public class TipContentScript : MonoBehaviour
         else if (LocalizationManagerXML.SelectedLanguage == 0)
         {
             _tipName.text = $"TIP {TipsGeneratorScript.CurrentIndex + 1}";
-            _tipName.font = EnglishFont;
+            _tipName.font = ForeighFont;
         }
+        else if (LocalizationManagerXML.SelectedLanguage == 2)
+        {
+            _tipName.text = $"DICA {TipsGeneratorScript.CurrentIndex + 1}";
+            _tipName.font = ForeighFont;
+        }
+        else if (LocalizationManagerXML.SelectedLanguage == 3)
+        {
+            _tipName.text = $"CONSEJO {TipsGeneratorScript.CurrentIndex + 1}";
+            _tipName.font = ForeighFont;
+        }
+
 
         CorrectText();
 
