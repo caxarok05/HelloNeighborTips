@@ -14,7 +14,7 @@ public class BannerAd : MonoBehaviour
 
     private void RequestBanner()
     {
-        string adUnitId = "ca-app-pub-3238506285828195/6983724440";
+        string adUnitId = "ca-app-pub-3238506285828195/5220688819";
        
         this.bannerView = new BannerView(adUnitId, AdSize.SmartBanner, AdPosition.Bottom);
 

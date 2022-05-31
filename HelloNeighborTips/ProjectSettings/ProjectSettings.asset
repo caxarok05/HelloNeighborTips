@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: Smart Fox
-  productName: Hi Neighbor Tips
+  productName: Guide for Secret Neighbor
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -42,7 +42,7 @@ PlayerSettings:
   m_SplashScreenLogos:
   - logo: {fileID: 10404, guid: 0000000000000000e000000000000000, type: 0}
     duration: 2
-  - logo: {fileID: 21300000, guid: 4c97349c17f67d04c9abe0be3612b1b7, type: 3}
+  - logo: {fileID: 21300000, guid: 2c91e13137af21844a6f388237d5176b, type: 3}
     duration: 3
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
@@ -131,7 +131,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 1.4
+  bundleVersion: 1
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -150,13 +150,13 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.smartfox.hineighborgame.tips
+    Android: com.smartfox.secret.heyneighbor.guide
   buildNumber:
     Standalone: 0
     iPhone: 0
     tvOS: 0
   overrideDefaultApplicationIdentifier: 1
-  AndroidBundleVersionCode: 3
+  AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 19
   AndroidTargetSdkVersion: 30
   AndroidPreferredInstallLocation: 1
@@ -242,8 +242,8 @@ PlayerSettings:
   AndroidTargetArchitectures: 3
   AndroidSplashScreenScale: 1
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: '{inproject}: user.keystore'
-  AndroidKeyaliasName: hineighbor
+  AndroidKeystoreName: '{inproject}: usernew.keystore'
+  AndroidKeyaliasName: secretneighbor
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
   AndroidIsGame: 1
@@ -265,7 +265,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: d9cc191d81b51174088c279e5015de4e, type: 3}
+      m_Icon: {fileID: 2800000, guid: 08e3a52189ecb544e8651d1871a617dd, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
@@ -303,48 +303,6 @@ PlayerSettings:
       m_Kind: 0
       m_SubKind: 
     - m_Textures:
-      - {fileID: 2800000, guid: d9cc191d81b51174088c279e5015de4e, type: 3}
-      - {fileID: 2800000, guid: d9cc191d81b51174088c279e5015de4e, type: 3}
-      m_Width: 432
-      m_Height: 432
-      m_Kind: 2
-      m_SubKind: 
-    - m_Textures:
-      - {fileID: 2800000, guid: 6adc759a481e44f4db293d272bc1f2b9, type: 3}
-      - {fileID: 2800000, guid: 6adc759a481e44f4db293d272bc1f2b9, type: 3}
-      m_Width: 324
-      m_Height: 324
-      m_Kind: 2
-      m_SubKind: 
-    - m_Textures:
-      - {fileID: 2800000, guid: ad70ac1c21c3777458ec8bc8a9794498, type: 3}
-      - {fileID: 2800000, guid: ad70ac1c21c3777458ec8bc8a9794498, type: 3}
-      m_Width: 216
-      m_Height: 216
-      m_Kind: 2
-      m_SubKind: 
-    - m_Textures:
-      - {fileID: 2800000, guid: 7ead5ef6a1951a8449e9d5e5e85d2ddb, type: 3}
-      - {fileID: 2800000, guid: 7ead5ef6a1951a8449e9d5e5e85d2ddb, type: 3}
-      m_Width: 162
-      m_Height: 162
-      m_Kind: 2
-      m_SubKind: 
-    - m_Textures:
-      - {fileID: 2800000, guid: 0d4fd1aa0e551e54aad1e6f539fa516a, type: 3}
-      - {fileID: 2800000, guid: 0d4fd1aa0e551e54aad1e6f539fa516a, type: 3}
-      m_Width: 108
-      m_Height: 108
-      m_Kind: 2
-      m_SubKind: 
-    - m_Textures:
-      - {fileID: 2800000, guid: 2d7727c8010dcfb49932e2b3a10b2759, type: 3}
-      - {fileID: 2800000, guid: 2d7727c8010dcfb49932e2b3a10b2759, type: 3}
-      m_Width: 81
-      m_Height: 81
-      m_Kind: 2
-      m_SubKind: 
-    - m_Textures:
       - {fileID: 0}
       m_Width: 192
       m_Height: 192
@@ -379,6 +337,48 @@ PlayerSettings:
       m_Width: 36
       m_Height: 36
       m_Kind: 1
+      m_SubKind: 
+    - m_Textures:
+      - {fileID: 2800000, guid: 08e3a52189ecb544e8651d1871a617dd, type: 3}
+      - {fileID: 2800000, guid: 08e3a52189ecb544e8651d1871a617dd, type: 3}
+      m_Width: 432
+      m_Height: 432
+      m_Kind: 2
+      m_SubKind: 
+    - m_Textures:
+      - {fileID: 2800000, guid: a0e0778dfcfed8043871e517e8d11138, type: 3}
+      - {fileID: 2800000, guid: a0e0778dfcfed8043871e517e8d11138, type: 3}
+      m_Width: 324
+      m_Height: 324
+      m_Kind: 2
+      m_SubKind: 
+    - m_Textures:
+      - {fileID: 2800000, guid: 95bdc03bfd84fa84592af93bce9fdf3a, type: 3}
+      - {fileID: 2800000, guid: 95bdc03bfd84fa84592af93bce9fdf3a, type: 3}
+      m_Width: 216
+      m_Height: 216
+      m_Kind: 2
+      m_SubKind: 
+    - m_Textures:
+      - {fileID: 2800000, guid: 1acf802e81fb06c4e9de52e308d30f47, type: 3}
+      - {fileID: 2800000, guid: 1acf802e81fb06c4e9de52e308d30f47, type: 3}
+      m_Width: 162
+      m_Height: 162
+      m_Kind: 2
+      m_SubKind: 
+    - m_Textures:
+      - {fileID: 2800000, guid: c4b35409f38b41645af8d9a6881d4452, type: 3}
+      - {fileID: 2800000, guid: c4b35409f38b41645af8d9a6881d4452, type: 3}
+      m_Width: 108
+      m_Height: 108
+      m_Kind: 2
+      m_SubKind: 
+    - m_Textures:
+      - {fileID: 2800000, guid: 5e41045c1ccb13948b824ce32b8e875b, type: 3}
+      - {fileID: 2800000, guid: 5e41045c1ccb13948b824ce32b8e875b, type: 3}
+      m_Width: 81
+      m_Height: 81
+      m_Kind: 2
       m_SubKind: 
   m_BuildTargetBatching: []
   m_BuildTargetGraphicsJobs:

@@ -7,7 +7,7 @@ using GoogleMobileAds.Api;
 public class AppOpenAd 
 {
 #if UNITY_ANDROID
-    private const string AD_UNIT_ID = "ca-app-pub-3238506285828195/3075450780";
+    private const string AD_UNIT_ID = "ca-app-pub-3238506285828195/3716035455";
 #elif UNITY_IOS
     private const string AD_UNIT_ID = "ca-app-pub-3940256099942544/5662855259";
 #else
